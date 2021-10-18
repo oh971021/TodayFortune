@@ -17,6 +17,7 @@ div {
     float: left;
     text-align: center;
     padding: 0%;
+    padding-bottom: 50px;
     margin: 0%;
 }
 
@@ -29,4 +30,22 @@ div {
 #menu li {
     display: inline-block;
     width: 16%;   
+}
+
+#menu li a {
+    color: black;
+    text-decoration-line: none;
+}
+
+.horoscope {
+    text-align: center;
+}
+
+.horoscope ul {
+    width: 130px;
+    display: inline-block;
+    list-style: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0%;
 }
