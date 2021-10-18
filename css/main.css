@@ -7,7 +7,6 @@ body {
 
 div {
     width: 100%;
-    border: 1px solid red;
 }
 
 #siteTitle {
@@ -69,4 +68,8 @@ div {
     padding-left: 50px;
     padding-right: 50px;
     margin: 0%;
+}
+
+.WhoAmI {
+    float: left;
 }
