@@ -15,6 +15,15 @@ div {
     text-align: center;
 }
 
+#siteTitle a {
+    text-decoration-line: none;
+    color: black;
+}
+
+#siteTitle a:active {
+    color: darkred;
+}
+
 #menu {
     font-weight: bold;
     width: 100%;
@@ -42,7 +51,7 @@ div {
 }
 
 #menu li a:hover {
-    color: slategray;
+    color: darkred;
 }
 
 .horoscope {
