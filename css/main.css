@@ -40,8 +40,13 @@ div {
 }
 
 #menu li {
+    background: wheat;
+    border-radius: 50px;
     display: inline-block;
-    width: 16%;   
+    width: 10%;   
+    margin-left: 3%;
+    margin-right: 3%;
+    line-height: 50px;
 }
 
 #menu li a {
@@ -55,6 +60,7 @@ div {
 
 .horoscope {
     text-align: center;
+    padding-top: 50px;
 }
 
 .horoscope h3 {
@@ -70,6 +76,19 @@ div {
     margin: 0%;
 }
 
-.WhoAmI {
-    float: left;
+footer {
+    position: absolute;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+footer div a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.foot
+div{
+    width: 50px;
+    float: right;
 }
