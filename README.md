@@ -1,0 +1,1 @@
+# Fortune Site by JS
