@@ -1,0 +1,45 @@
+#ageBox {
+    margin-top: 250px;
+    text-align: center;
+}
+
+input {
+    width: 40px;
+    text-align: center;
+}
+
+.resultNum1 {
+    background: red;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.resultNum5 {
+    background: blue;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.resultNum4 {
+    background: green;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.resultNum3 {
+    background: yellow;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.resultNum2 {
+    background: orange;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.resultNum6 {
+    background: purple;
+    padding: 20px;
+    border-radius: 50%;
+}
