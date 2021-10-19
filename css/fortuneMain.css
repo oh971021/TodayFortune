@@ -8,38 +8,45 @@ input {
     text-align: center;
 }
 
-.resultNum1 {
+#resultNum1 {
     background: red;
-    padding: 20px;
+    padding: 50px;
     border-radius: 50%;
 }
 
-.resultNum5 {
+#resultNum5 {
     background: blue;
-    padding: 20px;
+    padding: 50px;
     border-radius: 50%;
 }
 
-.resultNum4 {
+#resultNum4 {
     background: green;
-    padding: 20px;
+    padding: 50px;
     border-radius: 50%;
 }
 
-.resultNum3 {
+#resultNum3 {
     background: yellow;
-    padding: 20px;
+    padding: 50px;
     border-radius: 50%;
 }
 
-.resultNum2 {
+#resultNum2 {
     background: orange;
-    padding: 20px;
+    padding: 50px;
     border-radius: 50%;
 }
 
-.resultNum6 {
+#resultNum6 {
     background: purple;
-    padding: 20px;
+    padding: 50px;
     border-radius: 50%;
+}
+
+.resultNum span {
+    font-size: 20pt;
+    font-weight: bolder;
+    color: white;
+    margin: 0% 2%;
 }
