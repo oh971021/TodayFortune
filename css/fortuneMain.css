@@ -8,6 +8,10 @@ input {
     text-align: center;
 }
 
+button {
+    cursor: pointer;
+}
+
 #resultNum1 {
     background: red;
     padding: 50px;
