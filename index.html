@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <script src="js/main.js"></script>
+    <script src="js/scope.js"></script>
     <title>Lucky</title>
 </head>
 <body>
@@ -33,13 +34,13 @@
         <div class="horoscope">
             <h3>띠별 운세 보기</h3>
             <ul>
-                <li><a href="fortuneSite/horoscope.html">
-                    <span class="ani"><img src="image/쥐.png" alt=""></span>
-                </a></li>
+                <li>
+                    <span id="ani01"><img src="image/쥐.png" onclick="callScope()"></span>
+                </li>
             </ul>
             <ul>
                 <li><a href="fortuneSite/horoscope.html">
-                    <span class="ani"><img src="image/소.png" alt=""></span>
+                    <span id="ani02"><img src="image/소.png" ondblclick="callScope()"></span>
                 </a></li>
             </ul>
             <ul>
