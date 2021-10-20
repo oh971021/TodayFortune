@@ -32,34 +32,43 @@
     <!-- 전체적인 내용 -->
     <section>
         <div id="noticeSearch">
-            <h1>공 지 사 항</h1>
-            <input type="text">
-            <span id="search" onclick="search()">
+            <h1 style="font-size: 30pt;">공 지 사 항</h1>
+            <input id="search" type="text">
+            <span id="searchButton" onclick="search()">
                 &#128269;
             </span>
+            <span id="noticeAdd">
+                <button onclick="add()">작성</button>
+            </span>
         </div>
-        <div id="noticeContents">
-            <table>
-                <tr>
+        <div id="notice">
+            <table width="100%" border="1">
+                <tr id="noticeTitle">
                     <td width="5%">
                         번호
                     </td>
-                    <td width="80%">
+                    <td width="60%">
                         제목
                     </td>
-                    <td>
+                    <td width="10%">
                         작성자
                     </td>
-                    <td>
+                    <td width="10%">
                         작성일
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        3
+                    <td id="noticeNumber">
+                        1
                     </td>
-                    <td>
-                        4
+                    <td id="noticeContents">
+                        <a href="">열심히 구현 중입니다.</a>
+                    </td>
+                    <td id="noticeWriter">
+                        JUNBALS
+                    </td>
+                    <td id="noticeDate">
+                        1997-10-21
                     </td>
                 </tr>
             </table>

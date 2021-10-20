@@ -4,12 +4,38 @@ section {
     padding-right: 20%;
 }
 
-#search {
+#searchButton {
     cursor: pointer;
 }
 
-#noticeContents {
+#notice {
     position: relative; top: 20px;
     width: 100%;
-    background-color: red;
+}
+
+#noticeTitle {
+    text-align: center;
+}
+
+#noticeNumber {
+    text-align: center;
+}
+
+#noticeWriter {
+    text-align: center;
+}
+
+#noticeDate {
+    text-align: center;
+}
+
+#noticeContents {
+    padding-left: 20px;
+}
+
+#noticeAdd button {
+    margin: 0 6px;
+    float: right;
+    background: white;
+    cursor: pointer;
 }
