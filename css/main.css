@@ -65,6 +65,10 @@ nav {
     color: darkred;
 }
 
+.ani {
+    cursor: pointer;
+}
+
 .horoscope {
     position: relative; top: 50px;
     margin: 0 auto;

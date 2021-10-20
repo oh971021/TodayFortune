@@ -71,3 +71,27 @@ button {
 #scope {
     text-align: center;
 }
+
+#what {
+    position: absolute; top: 50px;
+    text-align: center;
+    font-size: 40pt;
+}
+
+#content {
+    position: absolute; top: 200px;
+    text-align: center;
+    font-size: 20pt;
+}
+
+.luckyColor {
+    position: absolute; top: 450px;
+    text-align: center;
+    font-size: 15pt;
+}
+
+.luckyItem {
+    position: absolute; top: 500px;
+    text-align: center;
+    font-size: 15pt;
+}
