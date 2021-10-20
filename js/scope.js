@@ -1,11 +1,7 @@
 function callScope() {
-    location.href='fortuneSite/horoscope.html';
-
-    whatScope();
+    window.open("fortuneSite/horoscope.html", "scope", "width=600, height=600, left=650, top=200");
 }
 
 function whatScope() {
-    
-    let mouse = "hello";
-    document.getElementById('scopeAnswer').innerText = mouse;
+    document.getElementById('scope').src = "../image/개.png";
 }

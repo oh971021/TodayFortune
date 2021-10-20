@@ -64,7 +64,10 @@ button {
     background: navajowhite;
 }
 
+.ani {
+    cursor: pointer;
+}
+
 #scope {
     text-align: center;
-    
 }
