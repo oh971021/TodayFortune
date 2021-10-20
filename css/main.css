@@ -32,6 +32,7 @@ nav {
     font-weight: bold;
     font-size: 15pt;
     width: 100%;
+    height: 90px;
     float: left;    
     text-align: center;
     padding: 15px 0px;
@@ -39,18 +40,19 @@ nav {
 }
 
 #menu ul {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15%;
+    position: absolute;
+    width: 1400px;
+    left: 49%;
+    transform: translateX(-50%);
 }
 
 #menu li {
     background: #F0F0CB;
     border-radius: 50px;
     display: inline-block;
-    width: 10%;   
-    margin-left: 3%;
-    margin-right: 3%;
+    width: 120px;   
+    margin-left: 2%;
+    margin-right: 2%;
     line-height: 50px;
 }
 
@@ -84,7 +86,6 @@ nav {
 }
 
 footer {
-    position: absolute;
     width: 100%;
     padding-bottom: 10px;
 }
