@@ -1,0 +1,15 @@
+section {
+    position: relative; top: 60px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#search {
+    cursor: pointer;
+}
+
+#noticeContents {
+    position: relative; top: 20px;
+    width: 100%;
+    background-color: red;
+}
